@@ -256,9 +256,31 @@ And for a goal state:
  ## Analysis
   <img width="691" height="185" alt="image" src="https://github.com/user-attachments/assets/ac83d5d5-5268-4900-9f68-692f54789d6c" />
  <img width="736" height="479" alt="image" src="https://github.com/user-attachments/assets/6b3f383f-a9ce-47af-8381-21ec9caf46e6" />
+ 
+## Experiment Results
 
-
-
+| Scramble Depth | Trial | Misplaced Tiles Nodes | Manhattan Distance Nodes | Solution Cost |
+|---|---|---:|---:|---:|
+| 5 | 1 | 2 | 2 | 1 |
+| 5 | 2 | 2 | 2 | 1 |
+| 5 | 3 | 6 | 6 | 5 |
+| 5 | 4 | 4 | 4 | 3 |
+| 5 | 5 | 4 | 4 | 3 |
+| 10 | 1 | 3 | 3 | 2 |
+| 10 | 2 | 5 | 5 | 4 |
+| 10 | 3 | 6 | 5 | 4 |
+| 10 | 4 | 3 | 3 | 2 |
+| 10 | 5 | 5 | 5 | 4 |
+| 15 | 1 | 4 | 4 | 3 |
+| 15 | 2 | 6 | 6 | 5 |
+| 15 | 3 | 4 | 4 | 3 |
+| 15 | 4 | 6 | 6 | 5 |
+| 15 | 5 | 8 | 7 | 5 |
+| 20 | 1 | 3 | 3 | 2 |
+| 20 | 2 | 9 | 9 | 8 |
+| 20 | 3 | 16 | 10 | 8 |
+| 20 | 4 | 24 | 18 | 8 |
+| 20 | 5 | 16 | 12 | 6 |
 ## Question 5: At what scramble depth does the gap between the two heuristics become clearly visible? Why does the gap widen as depth increases rather than staying constant?
 ## Answer
 The exact depth depends on the scrambles generated and the results in your table. In general, the difference often becomes noticeable at moderate depths, around 10–15 moves. Use your Cell 16 results to identify where it becomes clear in your experiment.
